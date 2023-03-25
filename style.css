@@ -1,0 +1,50 @@
+.heading {
+    text-align: center;
+}
+
+.main-map {
+    width: 60%;
+    height: 520px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-map iframe {
+    width: 100%;
+    height: 100%;
+}
+.Button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.get-btn button
+{
+    padding: 20px;
+    border: none;
+    background: transparent;
+    border: 2px solid black;
+}
+.get-btn button:hover
+{
+    background: black;
+    color: #ffffff;
+    transition: 0.5s ease all;
+    cursor: pointer;
+}
+.remove-btn button
+{
+    padding: 20px;
+    border: none;
+    background: transparent;
+    border: 2px solid black;
+}
+.remove-btn button:hover
+{
+    background: black;
+    color: #ffffff;
+    transition: 0.5s ease all;
+    cursor: pointer;
+}
